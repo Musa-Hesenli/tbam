@@ -1,0 +1,182 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.intro-image-wrap {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+.intro-image {
+	width: 102.4px;
+}
+
+.intro-text {
+	padding: 20px;
+	text-align: center;
+}
+
+.toggler-btn {
+	background-color: #BABFC7;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.company__card__image__wrap {
+	background-color: rgba(115, 103, 240, 0.12);
+	padding: 0px;
+}
+.company__card__image {
+	width: 100%;
+	height: 70px;
+	object-fit: contain;
+	
+}
+
+.company__card__info {
+	display: flex;
+	align-items: center;
+	padding: 0px 10px;
+}
+
+.company__card__container {
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
+
+
+.selected__company__intro {
+	display: flex;
+}
+.selected__company__intro .back__button {
+	display: flex;
+	align-items: center;
+	margin-right: 15px;
+	justify-content: center;
+}
+.selected__company__intro .back__button svg {
+	width: 30px;
+	height: 20px;
+	stroke: #4B4B4B;
+}
+
+.selected__company__intro .selected__company__info {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+.selected__company__intro .selected__company__info .item__image {
+	width: 80px;
+	background-color: rgba(115, 103, 240, 0.12);
+	border-radius: 10px;
+	margin-right: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.selected__company__intro .selected__company__info .item__image img {
+	width: 100%;
+}
+
+.card__statics__number {
+	margin: 15px 0px 0px;
+	font-size: 30px;
+}
+
+.market__card {
+	margin-bottom: 15px;
+	color: #4B4B4B;
+}
+.market__card .card-body {
+	padding: 12px;
+	font-weight: 500;
+}
+
+.market__filter__list {
+	border-radius: 0px;
+	border: 0px;
+}
+
+.market__filter__list .list-group-item {
+	border-radius: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.action__content {
+	margin-bottom: 80px;
+}
+.next__action__footer {
+	position: fixed;
+    right: 0;
+    margin: 1.3rem 2rem 0;
+    width: calc(100vw - (100vw - 100%) - calc(2rem * 2) - 260px);
+    z-index: 12;
+	background-color: #fff;
+	z-index: 1000;
+	bottom: 0px;
+	padding: 10px;
+}
+
+
+@media only screen and (max-width:  1200px) {
+	.next__action__footer {
+		width: 100%;
+		margin: 0px;
+	}
+}
+
+.compeleted__action {
+	text-decoration: line-through;
+	font-weight: 500;
+}
+
+.text-black {
+	color: #4B4B4B;
+}
+
+.text-gray {
+	color: #BABFC7;
+}
+
+.space-one {
+	margin: 5px 0px;
+	padding: 0px;
+}
+
+.product__intro__short {
+	font-weight: 500;
+}
+
+.calculator__wrap {
+	display: grid;
+	grid-template-columns: 33.33333333% 33.33333333% 33.33333333%;
+	margin: 0px -5px;
+}
+
+.calculator__wrap button {
+	margin: 5px;
+	font-size: 12px;
+	white-space: nowrap;
+	transition: .4s;
+}
+
+.calculator__wrap button:active {
+	background-color: #4B4B4B !important;
+	color: #BABFC7 !important;
+}
